@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:stretchColumns="3"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="405dp"
+
+            >
+
+            <TableRow android:layout_span="3">
+
+                <EditText
+                    android:id="@+id/title_1"
+                    android:layout_width="319dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:text="WCT Variable 1"
+                    app:autoSizeTextType="uniform"
+                    app:guidelineUseRtl="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.153"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.208"
+                    app:textAllCaps="false" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:stretchColumns="3"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="405dp"
+
+            >
+
+
+            <TableRow
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_span="3">
+
+
+                <EditText
+                    android:id="@+id/lowervalue1"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+
+                    android:layout_column="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+
+
+                    />
+
+                <EditText
+
+                    android:id="@+id/uppervalue1"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="0"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <TextView
+                    android:gravity="center_vertical|left"
+                    android:paddingLeft="20dp"
+                    android:id="@+id/variables_1"
+                    android:layout_width="121dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+
+                    android:text="( a,b,c,d,e,f,g )"
+                    app:guidelineUseRtl="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.823"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.463" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:stretchColumns="3"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="405dp"
+
+            >
+
+            <TableRow android:layout_span="3">
+
+                <EditText
+                    android:id="@+id/title_2"
+                    android:layout_width="319dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:text="WCT Variable 2"
+
+                    app:autoSizeTextType="uniform"
+                    app:guidelineUseRtl="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.153"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.208"
+                    app:textAllCaps="false" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:stretchColumns="3"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="405dp"
+
+            >
+
+
+            <TableRow android:layout_span="3">
+
+
+                <EditText
+                    android:id="@+id/lowervalue2"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+
+
+                    />
+
+                <EditText
+                    android:id="@+id/uppervalue2"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <TextView
+                    android:gravity="center_vertical|left"
+                    android:paddingLeft="20dp"
+                    android:id="@+id/variables_2"
+                    android:layout_width="121dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+
+                    android:text="( a,b,c,d,e,f,g )"
+                    app:guidelineUseRtl="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.823"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.463" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:stretchColumns="3"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="405dp"
+
+            >
+
+            <TableRow android:layout_span="3">
+
+                <EditText
+                    android:id="@+id/title_3"
+                    android:layout_width="319dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+                    android:text="WCT Variable 3"
+
+                    app:autoSizeTextType="uniform"
+                    app:guidelineUseRtl="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.153"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.208"
+                    app:textAllCaps="false" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:stretchColumns="3"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="405dp"
+
+            >
+
+
+            <TableRow android:layout_span="3">
+
+
+                <EditText
+                    android:id="@+id/lowervalue3"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+
+
+                    />
+
+                <EditText
+                    android:id="@+id/uppervalue3"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    />
+
+                <TextView
+                    android:gravity="center_vertical|left"
+                    android:paddingLeft="20dp"
+                    android:id="@+id/variables_3"
+                    android:layout_width="121dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="3"
+
+                    android:text="( a,b,c,d,e,f,g )"
+                    app:guidelineUseRtl="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.823"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.463" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            android:stretchColumns="0"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="405dp">
+
+            <TableRow
+                android:layout_span="0"
+                android:padding="30px">
+
+                <Button
+                    android:id="@+id/solution"
+                    android:layout_width="398dp"
+                    android:layout_height="45dp"
+                    android:text="Solution"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.958" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+
+            android:padding="10dp"
+            android:id="@+id/answertitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Solution:"
+            android:textColor="#FF0000"
+            app:fontFamily="serif"
+
+            />
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/answercontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Answer Details"
+            app:fontFamily="serif" />
+
+
+        <TableLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:stretchColumns="2"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="405dp">
+
+            <TableRow
+                android:layout_span="2"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:id="@+id/v1"
+                    android:layout_width="87dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:gravity="bottom"
+                    android:padding="20dp"
+                    android:text="Nos`"
+                    app:fontFamily="serif" />
+
+                <TextView
+                    android:id="@+id/v2"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:gravity="bottom"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="No Values in\nVariable 1"
+                    app:fontFamily="serif" />
+
+                <TextView
+                    android:id="@+id/v3"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="4"
+                    android:gravity="bottom"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="No Values in\nVariable 2"
+                    app:fontFamily="serif" />
+
+                <TextView
+                    android:id="@+id/v4"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="5"
+                    android:gravity="bottom"
+                    android:layout_gravity="center"
+                    android:padding="20dp"
+                    android:text="No Values in\nVariable 3"
+                    app:fontFamily="serif" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
